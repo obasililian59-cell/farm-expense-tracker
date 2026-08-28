@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farm Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    
+  <h1>Farm Expense Tracker</h1>
+  
+  <label for="itemInput">Expense Item: </label>
+<input type="text" id="itemInput" placeholder="e.g. Fertilizer">
+
+<label for="categoryInput">Category:</label>
+
+<select id="categoryInput">
+  <option value="Input">Input</option>
+  <option value="Labour">Labour</option>
+  <option value="Transport">Transport</option>
+</select>
+
+<label for="amountInput">Amount: </label>
+<input type="number" id="amountInput" placeholder="e.g. 15000">
+
+<button class="primary-btn" id="addExpenseBtn">Add Expense</button>
+
+<h2>Expenses</h2>
+  
+<label for="filterCategory">Filter by category:</label>
+
+<select id="filterCategory">
+  <option value="All">All</option>
+  <option value="Input">Input</option>
+  <option value="Labour">Labour</option>
+  <option value="Transport">Transport</option>
+</select>
+
+<div id="expenseList"></div>
+
+<h2>Total Expenses: ₦<span id="totalExpense">0</span></h2>
+
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
