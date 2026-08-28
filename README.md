@@ -64,12 +64,14 @@ Users can also filter expenses by category and delete individual expense records
 
 Project Structure
 
+```
 farm-expense-tracker/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
 Future Improvements
 
