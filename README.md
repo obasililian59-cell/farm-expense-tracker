@@ -88,6 +88,7 @@ Possible future versions may include:
 Version
 
 Version 1.0
+https://lejora-farm-expense-tracker.netlify.app
 
 Author
 
